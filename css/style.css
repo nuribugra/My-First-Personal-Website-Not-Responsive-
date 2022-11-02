@@ -1,0 +1,47 @@
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box!important;
+}
+
+
+nav .collapse ul li a {
+    color: rgb(56, 56, 56);
+}
+
+nav{
+    position: fixed!important;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+/* nav .fa, .fa-solid {
+    color: #0d6efd;
+} */
+
+main {
+    width: 100%;
+    min-height: 600px;
+    padding-top: 120px;
+}
+
+.greeting {
+    text-align: center;
+    margin: 140px auto;
+    padding-bottom: 70px;
+}
+
+.greeting .fa-smile {
+    font-size: 60px;
+    color: #f2cc5a;
+}
+
+.card {
+    border-width: 0;
+}
+
+

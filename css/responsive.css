@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+    nav .collapse ul li{
+        border-width: 0px!important;
+    }
+}
+
+@media (min-width: 768px) {
+    .whoAmI .col-lg-7 {
+        padding: 50px;
+    }
+}
