@@ -15,8 +15,19 @@ nav .collapse ul li a {
 nav{
     position: fixed!important;
     width: 100%;
+    top: 26px;
+    z-index: 1;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topbar {
+    height: 26px;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1;
+    /* border: 2px solid black ; */
+    background-color: #ebeded;
 }
 
 /* nav .fa, .fa-solid {
@@ -40,8 +51,22 @@ main {
     color: #f2cc5a;
 }
 
-.card {
+.whoAmI .card {
     border-width: 0;
+}
+
+.portfolio img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio .col-4 {
+    transition: .5s;
+}
+
+.portfolio .col-4:hover {
+    /* top: -10px; */
+    transform: translateY(-6px);
 }
 
 
