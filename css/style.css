@@ -69,4 +69,9 @@ main {
     transform: translateY(-6px);
 }
 
+.contact img {
+    width: 100%;
+    height: auto;
+}
+
 
