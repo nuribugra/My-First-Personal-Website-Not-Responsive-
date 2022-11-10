@@ -2,6 +2,9 @@
     nav .collapse ul li{
         border-width: 0px!important;
     }
+    .greeting {
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 768px) {
@@ -13,6 +16,9 @@
 @media (max-width: 500px){
     .navbar-brand {
         font-size: 17px;
+    }
+    .greeting {
+        margin-bottom: 0;
     }
 
 }
