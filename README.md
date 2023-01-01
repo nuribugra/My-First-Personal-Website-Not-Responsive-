@@ -1,3 +1,3 @@
 # Personal Website
 ***
-Bu repo kişisel web sitemin kodlarını ve dosyalarını içeriyor.
+This repo includes my personal website's codes and files.
